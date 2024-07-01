@@ -14,8 +14,8 @@ if ($conn->connect_error) {
 }
 
 // Get user input
-$id = $_GET['id'];
-$name = $_GET['name'];
+$id = $_GET['id']
+$name = $_GET['name']
 
 // SQL query with vulnerability (SQL Injection)
 $query = "SELECT * FROM products WHERE id = $id AND name = '$name'";
